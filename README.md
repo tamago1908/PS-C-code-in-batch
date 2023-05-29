@@ -1,5 +1,7 @@
 # PS-C-code-in-batch
-Running multi-line C# code within batch
+Running multi-line C# code within batch.
+
+This demo uses C# code to disable the window exit button.
 ## Description
 This batch is a demo that allows execution of multiple lines of powershell code.
 By being able to execute multiple lines of powershell code, it is possible to derive it to execute C# code as well.
