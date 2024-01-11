@@ -12,9 +12,9 @@ This code gets the current contents of the batch file with the Get-Content comma
 
 It is also not recommended to run the program with administrator privileges granted. In rare cases, antivirus software may falsely detect it as a virus.
 
-**As a reminder, the powershell code must be within 8191 characters.
-This is a restriction on invoking powershell code from the command prompt and cannot be circumvented.
-However, otherwise any number of lines can be successfully executed.**
+A powershell script of 8191 characters or less is recommended.  
+You can probably run a powershell script longer than that, but it may be buggy.  
+Also, errors in powershell scripts are not traceable. If you want to track errors separately, you need to catch them or run them as a ps1 file  
 
 
 Permission is hereby granted to redistribute and/or modify this demo and batch in accordance with LICENSE. Feel free to use them.
